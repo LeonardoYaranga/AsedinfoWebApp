@@ -834,7 +834,8 @@ body {
 }
 
 .footer-top {
-  display: grid;
+  display: flex;
+  justify-content: center;
   gap: 40px;
   margin-block-end: 60px;
 }
@@ -1414,8 +1415,8 @@ body {
 @import url('https://fonts.googleapis.com/css?family=Coda+Caption:800|Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 :root {
-  --primary-color: #c7a125;
-  --secondary-color: #c9be5b;
+  --primary-color: #34546c;
+  --secondary-color: #04c4c4;
   --contactTitles: #fff;
   --contactText: #000;
 }
@@ -1443,7 +1444,7 @@ ul {
 
 #contact-heading {
   background: var(--primary-color);
-  height: 25rem;
+  height: 30rem;
 }
 
 .contact-heading-wrap {
@@ -1463,7 +1464,7 @@ ul {
 
 .contact-heading-wrap p {
   position: relative;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .contact-heading-wrap p::before {
@@ -1486,7 +1487,7 @@ ul {
 /* Form Info */
 .form-info {
   background: var(--secondary-color);
-  color: #333;
+  color: #fff;
   padding: 2rem;
   text-align: center;
   list-style: none;
