@@ -1417,7 +1417,7 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 :root {
   --primary-color: #34546c;
-  --secondary-color: #04c4c4;
+  --secondary-color: #4ed4d2;
   --contactTitles: #fff;
   --contactText: #000;
 }
@@ -1482,7 +1482,7 @@ ul {
 .form-box {
   margin: -7rem 2rem 5rem 2rem;
   box-shadow: 0 0 5px 0 rgba(49, 61, 73, 0.7);
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 /* Form Info */
@@ -1492,6 +1492,8 @@ ul {
   padding: 2rem;
   text-align: center;
   list-style: none;
+  border-radius: 10px 10px 0 0;
+  
 }
 
 .form-info h3 {
@@ -1522,6 +1524,8 @@ ul {
 .form-input {
   padding: 0 2rem;
   background: #fff;
+  border-radius: 10px;
+  
 }
 
 .form-input h3 {
@@ -1547,6 +1551,8 @@ ul {
   height: 2.5rem;
   text-indent: 1em;
   border: .5px solid #149cc567;
+  border-radius: 10px;
+  padding: 20px 5px 20px 5px;
 }
 
 .form-input form input, .form-input form textarea {
@@ -1558,6 +1564,7 @@ ul {
   padding: 1em;
   border: .5px solid #149cc567;
   resize: none;
+  border-radius: 10px;
 }
 
 .form-input form .full {
@@ -1576,12 +1583,25 @@ ul {
   font-weight: bold;
   cursor: pointer;
   transition: all .5s ease;
+  border-radius: 20px;
+  padding: 20px 5px 20px 5px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .form-input form button:hover {
   background: #fff;
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
+}
+
+.form-input h2 {
+  padding: 10px 0 0 0;
+  color: var(--contactText);
 }
 
 /* LARGE SCREEN */
@@ -1596,6 +1616,7 @@ ul {
 
   .form-box {
     margin-top: -10rem;
+    border-radius: 10px;
   }
 
   .form-box-grid {
@@ -1607,10 +1628,12 @@ ul {
   .form-input {
     grid-row: 1;
     grid-column: 1 / 3;
+    border-radius: 10px 0 0 10px;
   }
 
   .form-info {
     grid-column: 3 / 4;
+    border-radius: 0 10px 10px 0;
   }
 
   .form-info ul {
