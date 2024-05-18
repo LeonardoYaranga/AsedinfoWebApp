@@ -86,7 +86,7 @@ const sections = document.querySelectorAll("[data-section]");
 
 const scrollReveal = function () {
   for (let i = 0; i < sections.length; i++) {
-    if (sections[i].getBoundingClientRect().top < window.innerHeight / 2) {
+    if (sections[i].getBoundingClientRect().top < window.innerHeight / 1.6) {
       sections[i].classList.add("active");
     }
   }
