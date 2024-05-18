@@ -2,883 +2,829 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AsedInfo</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AsedInfo</title>
 
-  <!-- 
+    <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-  <!-- 
+    <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- 
+    <!-- 
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
-  <!-- 
+    <!-- 
     - preload images
   -->
-  <link rel="preload" as="image" href="./assets/images/logo.png">
-  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-banner-3.jpg">
+    <link rel="preload" as="image" href="./assets/images/logo.png">
+    <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-banner-3.jpg">
 
 </head>
 
 <body id="top">
 
-  <!-- 
+    <!-- 
     - #HEADER
   -->
 
-  <header class="header">
+    <header class="header">
 
-    <div class="alert">
-      <div class="container">
-        <p class="alert-text" style="color: #4ed4d2;">.</p>
-      </div>
-    </div>
-
-    <div class="header-top" data-header>
-      <div class="container">
-
-        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-          <span class="line line-1"></span>
-          <span class="line line-2"></span>
-          <span class="line line-3"></span>
-        </button>
-
-        <div class="input-wrapper">  
+        <div class="alert">
+            <div class="container">
+                <p class="alert-text" style="color: #4ed4d2;">.</p>
+            </div>
         </div>
 
-        <a href="#" class="logo">
-          <img src="./assets/images/LogoAI.png" width="240"  alt="Glowing">
+        <div class="header-top" data-header>
+            <div class="container">
 
-        </a>
+                <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                    <span class="line line-1"></span>
+                    <span class="line line-2"></span>
+                    <span class="line line-3"></span>
+                </button>
 
-        <div class="header-actions">
+                <div class="input-wrapper">
+                </div>
+
+                <a href="#" class="logo">
+                    <img src="./assets/images/LogoAI.png" width="240" alt="Glowing">
+
+                </a>
+
+                <div class="header-actions">
+                </div>
+
+                <nav class="navbar">
+                    <ul class="navbar-list">
+
+                        <li>
+                            <a href="#home" class="navbar-link has-after">Inicio</a>
+                        </li>
+
+                        <li>
+                            <a href="#collection" class="navbar-link has-after">Nosotros</a>
+                        </li>
+
+                        <li>
+                            <a href="#shop" class="navbar-link has-after">Servicios</a>
+                        </li>
+
+                        <li>
+                            <a href="#offer" class="navbar-link has-after">Offer</a>
+                        </li>
+
+                        <li>
+                            <a href="#blog" class="navbar-link has-after">Contacto</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+            </div>
         </div>
 
-        <nav class="navbar">
-          <ul class="navbar-list">
-
-            <li>
-              <a href="#home" class="navbar-link has-after">Inicio</a>
-            </li>
-
-            <li>
-              <a href="#collection" class="navbar-link has-after">Nosotros</a>
-            </li>
-
-            <li>
-              <a href="#shop" class="navbar-link has-after">Servicios</a>
-            </li>
-
-            <li>
-              <a href="#offer" class="navbar-link has-after">Offer</a>
-            </li>
-
-            <li>
-              <a href="#blog" class="navbar-link has-after">Contacto</a>
-            </li>
-
-          </ul>
-        </nav>
-
-      </div>
-    </div>
-
-  </header>
+    </header>
 
 
 
 
 
-  <!-- 
+    <!-- 
     - #MOBILE NAVBAR
   -->
 
-  <div class="sidebar">
-    <div class="mobile-navbar" data-navbar>
+    <div class="sidebar">
+        <div class="mobile-navbar" data-navbar>
 
-      <div class="wrapper">
-        <a href="#" class="logo">
-          <img src="./assets/images/AILogo.png" width="100" alt="Glowing">
-        </a>
+            <div class="wrapper">
+                <a href="#" class="logo">
+                    <img src="./assets/images/AILogo.png" width="100" alt="Glowing">
+                </a>
 
-        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-        </button>
-      </div>
+                <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+            </div>
 
-      <ul class="navbar-list">
+            <ul class="navbar-list">
 
-        <li>
-          <a href="#home" class="navbar-link" data-nav-link>Inicio</a>
-        </li>
+                <li>
+                    <a href="#home" class="navbar-link" data-nav-link>Inicio</a>
+                </li>
 
-        <li>
-          <a href="#collection" class="navbar-link" data-nav-link>Nosotros</a>
-        </li>
+                <li>
+                    <a href="#collection" class="navbar-link" data-nav-link>Nosotros</a>
+                </li>
 
-        <li>
-          <a href="#shop" class="navbar-link" data-nav-link>Servicios</a>
-        </li>
+                <li>
+                    <a href="#shop" class="navbar-link" data-nav-link>Servicios</a>
+                </li>
 
-        <li>
-          <a href="#offer" class="navbar-link" data-nav-link>Offer</a>
-        </li>
+                <li>
+                    <a href="#offer" class="navbar-link" data-nav-link>Offer</a>
+                </li>
 
-        <li>
-          <a href="#blog" class="navbar-link" data-nav-link>Contacto</a>
-        </li>
+                <li>
+                    <a href="#blog" class="navbar-link" data-nav-link>Contacto</a>
+                </li>
 
-      </ul>
+            </ul>
 
+        </div>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
     </div>
 
-    <div class="overlay" data-nav-toggler data-overlay></div>
-  </div>
 
 
 
 
+    <main>
+        <article>
 
-  <main>
-    <article>
-
-      <!-- 
+            <!-- 
         - #HERO
       -->
 
-      <section class="section hero" id="home" aria-label="hero" data-section>
-        <div class="container">
+            <section class="section hero" id="home" aria-label="hero" data-section>
+                <div class="container">
 
-          <ul class="has-scrollbar">
+                    <ul class="has-scrollbar">
 
-            <li class="scrollbar-item">
-              <div class="hero-card has-bg-image" style="background-image: url('./assets/images/fd5.png')">
+                        <li class="scrollbar-item">
+                            <div class="hero-card has-bg-image"
+                                style="background-image: url('./assets/images/fd5.png')">
 
-                <div class="card-content">
+                                <div class="card-content">
 
-                  <h1 class="h1 hero-title">
-                    Nosotos somos<br>
-                    ASEDINFO<br>
-                  </h1>
+                                    <h1 class="h1 hero-title">
+                                        Nosotos somos<br>
+                                        ASEDINFO<br>
+                                    </h1>
 
-                  <p class="hero-text">
-                    Somos una empresa dedicada a la comercialización y distribución de productos y servicios
-                    informáticos para la Web, arrendamiento de servidores dedicados para Hosting y suscripciones
-                    a canales de entretenimiento. Ofrecemos una solución global empresas, grandes y pequeñas.
-                  </p>
+                                    <p class="hero-text">
+                                        Somos una empresa dedicada a la comercialización y distribución de productos y
+                                        servicios
+                                        informáticos para la Web, arrendamiento de servidores dedicados para Hosting y
+                                        suscripciones
+                                        a canales de entretenimiento. Ofrecemos una solución global empresas, grandes y
+                                        pequeñas.
+                                    </p>
 
-                  <a href="#" class="btn btn-primary"  data-nav-link> + Info </a>
+                                    <a href="#" class="btn btn-primary" data-nav-link> + Info </a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="hero-card has-bg-image" style="background-image: url('./assets/images/3.png')">
+
+                                <div class="card-content">
+
+                                    <h1 class="h1 hero-title">
+                                        Nosotos somos<br>
+                                        ASEDINFO<br>
+                                    </h1>
+
+                                    <p class="hero-text">
+                                        Somos una empresa dedicada a la comercialización y distribución de productos y
+                                        servicios
+                                        informáticos para la Web, arrendamiento de servidores dedicados para Hosting y
+                                        suscripciones
+                                        a canales de entretenimiento. Ofrecemos una solución global empresas, grandes y
+                                        pequeñas.
+                                    </p>
+
+                                    <a href="#" class="btn btn-primary">Shop Now</a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="hero-card has-bg-image"
+                                style="background-image: url('./assets/images/fd5.png')">
+
+                                <div class="card-content">
+
+                                    <h1 class="h1 hero-title">
+                                        Nosotos somos<br>
+                                        ASEDINFO<br>
+                                    </h1>
+
+                                    <p class="hero-text">
+                                        Somos una empresa dedicada a la comercialización y distribución de productos y
+                                        servicios
+                                        informáticos para la Web, arrendamiento de servidores dedicados para Hosting y
+                                        suscripciones
+                                        a canales de entretenimiento. Ofrecemos una solución global empresas, grandes y
+                                        pequeñas.
+                                    </p>
+
+                                    <a href="#" class="btn btn-primary">Shop Now</a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
 
                 </div>
-
-              </div>
-            </li>
-
-            <li class="scrollbar-item">
-              <div class="hero-card has-bg-image" style="background-image: url('./assets/images/3.png')">
-
-                <div class="card-content">
-
-                  <h1 class="h1 hero-title">
-                    Nosotos somos<br>
-                    ASEDINFO<br>
-                  </h1>
-
-                  <p class="hero-text">
-                    Somos una empresa dedicada a la comercialización y distribución de productos y servicios
-                    informáticos para la Web, arrendamiento de servidores dedicados para Hosting y suscripciones
-                    a canales de entretenimiento. Ofrecemos una solución global empresas, grandes y pequeñas.
-                  </p>
-
-                  <a href="#" class="btn btn-primary">Shop Now</a>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="scrollbar-item">
-              <div class="hero-card has-bg-image" style="background-image: url('./assets/images/fd5.png')">
-
-                <div class="card-content">
-
-                  <h1 class="h1 hero-title">
-                    Nosotos somos<br>
-                    ASEDINFO<br>
-                  </h1>
-
-                  <p class="hero-text">
-                    Somos una empresa dedicada a la comercialización y distribución de productos y servicios
-                    informáticos para la Web, arrendamiento de servidores dedicados para Hosting y suscripciones
-                    a canales de entretenimiento. Ofrecemos una solución global empresas, grandes y pequeñas.
-                  </p>
-
-                  <a href="#" class="btn btn-primary">Shop Now</a>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
+            </section>
 
 
 
 
 
-      <!-- 
+            <!-- 
         - #COLLECTION
       -->
 
-      <section class="section collection" id="collection" aria-label="collection" data-section>
-        <div class="container">
+            <section class="section collection" id="collection" aria-label="collection" data-section>
+                <div class="container">
 
-          <ul class="collection-list">
+                    <ul class="collection-list">
 
-            <li>
-              <div class="collection-card has-before hover:shine">
+                        <li>
+                            <div class="collection-card has-before hover:shine">
 
-                <h2 class="h2 card-title">Servicios Web</h2>
+                                <h2 class="h2 card-title">Servicios Web</h2>
 
-                <p class="card-text">Potencia tu negocio en Internet. Publica tu página web con un correo personalizado o
-                  tienda online, sin complicaciones. Además puedes contratar un espacio de almacenamiento en la nube 
-                  con distintos planes de almacenamiento.</p>
+                                <p class="card-text">Potencia tu negocio en Internet. Publica tu página web con un
+                                    correo personalizado o
+                                    tienda online, sin complicaciones. Además puedes contratar un espacio de
+                                    almacenamiento en la nube
+                                    con distintos planes de almacenamiento.</p>
 
-                <div class="has-bg-image" style="background-image: url('./assets/images/1.png'); filter: blur(5px) brightness(1.3);"></div>
+                                <div class="has-bg-image"
+                                    style="background-image: url('./assets/images/1.png'); filter: blur(5px) brightness(1.3);">
+                                </div>
 
-              </div>
-            </li>
+                            </div>
+                        </li>
 
-            <li>
-              <div class="collection-card has-before hover:shine">
+                        <li>
+                            <div class="collection-card has-before hover:shine">
 
-                <h2 class="h2 card-title">Entretenimiento</h2>
+                                <h2 class="h2 card-title">Entretenimiento</h2>
 
-                <p class="card-text">Forma parte del mejor entretenimiento, te asesoramos con los mejores servicios de
-                  contenido multimedia...</p>
+                                <p class="card-text">Forma parte del mejor entretenimiento, te asesoramos con los
+                                    mejores servicios de
+                                    contenido multimedia...</p>
 
-                  <div class="has-bg-image" style="background-image: url('./assets/images/2.png'); filter: blur(5px) brightness(1.2);"></div>
-
-
-              </div>
-            </li>
-
-            <li>
-              <div class="collection-card has-before hover:shine">
-
-                <h2 class="h2 card-title">Soporte, Asesoría y Mantenimiento</h2>
-
-                <p class="card-text">Soporte y mantenimiento de computadores, físico y lógico, con licenciamiento original g
-                  asistencia remota.
-                  Administración y optimización de Redes Home.
-                  Asesoramiento en servicios y servidores Cloud.</p>
-
-                <div class="has-bg-image" style="background-image: url('./assets/images/4.png'); filter: blur(5px) brightness(1.1);"></div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
+                                <div class="has-bg-image"
+                                    style="background-image: url('./assets/images/2.png'); filter: blur(5px) brightness(1.2);">
+                                </div>
 
 
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="collection-card has-before hover:shine">
+
+                                <h2 class="h2 card-title">Soporte, Asesoría y Mantenimiento</h2>
+
+                                <p class="card-text">Soporte y mantenimiento de computadores, físico y lógico, con
+                                    licenciamiento original g
+                                    asistencia remota.
+                                    Administración y optimización de Redes Home.
+                                    Asesoramiento en servicios y servidores Cloud.</p>
+
+                                <div class="has-bg-image"
+                                    style="background-image: url('./assets/images/4.png'); filter: blur(5px) brightness(1.1);">
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
 
 
 
-      <!-- 
+
+
+            <!-- 
         - #SHOP
       -->
 
-      <section class="section shop" id="shop" aria-label="shop" data-section>
-        <div class="container">
+            <section class="section shop" id="shop" aria-label="shop" data-section>
+                <div class="container">
 
-          <div class="title-wrapper">
-            <h2 class="h2 section-title">Our Products</h2>
+                    <div class="title-wrapper">
+                        <h2 class="h2 section-title">Our Products</h2>
 
-            <a href="#" class="btn-link">
-              <span class="span">Shop All Products</span>
+                        <a href="#" class="btn-link">
+                            <span class="span">Shop All Products</span>
 
-              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-            </a>
-          </div>
-
-          <ul class="has-scrollbar">
-
-            <li class="scrollbar-item">
-              <div class="shop-card">
-
-                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
-                  <img src="./assets/images/product-07.png" width="540" height="720" loading="lazy"
-                    alt="Facial cleanser" class="img-cover">
-
-                  <span class="badge" aria-label="20% off">-20%</span>
-
-                  <div class="card-actions">
-
-                    <button class="action-btn" aria-label="add to cart">
-                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
-                    </button>
-
-                    <button class="action-btn" aria-label="add to whishlist">
-                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
-                    </button>
-
-                    <button class="action-btn" aria-label="compare">
-                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
-                    </button>
-
-                  </div>
-                </div>
-
-                <div class="card-content">
-
-                  <div class="price">
-                    <del class="del">$6.00</del>
-
-                    <span class="span">$4.99</span>
-                  </div>
-
-                  <h3>
-                    <a href="#" class="card-title">Drive Storage</a>
-                  </h3>
-
-                  <div class="card-rating">
-
-                    <div class="rating-wrapper" aria-label="5 start rating">
-                      <ion-icon name="star" aria-hidden="true"></ion-icon>
-                      <ion-icon name="star" aria-hidden="true"></ion-icon>
-                      <ion-icon name="star" aria-hidden="true"></ion-icon>
-                      <ion-icon name="star" aria-hidden="true"></ion-icon>
-                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
                     </div>
 
-                    <p class="rating-text">52 reviews</p>
+                    <ul class="has-scrollbar">
 
-                  </div>
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                                    <img src="./assets/images/product-07.png" width="540" height="720" loading="lazy"
+                                        alt="Facial cleanser" class="img-cover">
+
+                                    <span class="badge" aria-label="20% off">-20%</span>
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to whishlist">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="price">
+                                        <del class="del">$6.00</del>
+
+                                        <span class="span">$4.99</span>
+                                    </div>
+
+                                    <h3>
+                                        <a href="#" class="card-title">Drive Storage</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+
+                                        <div class="rating-wrapper" aria-label="5 start rating">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <p class="rating-text">52 reviews</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                                    <img src="./assets/images/product-10.png" width="540" height="720" loading="lazy"
+                                        alt="Facial cleanser" class="img-cover">
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to whishlist">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="price">
+                                        <span class="span">$12.00</span>
+                                    </div>
+
+                                    <h3>
+                                        <a href="#" class="card-title">Dominio</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+
+                                        <div class="rating-wrapper" aria-label="5 start rating">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <p class="rating-text">75 reviews</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                                    <img src="./assets/images/product-11.png" width="540" height="720" loading="lazy"
+                                        alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+
+                                    <span class="badge" aria-label="20% off">-20%</span>
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to whishlist">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="price">
+                                        <del class="del">$4.50</del>
+
+                                        <span class="span">$3.75</span>
+                                    </div>
+
+                                    <h3>
+                                        <a href="#" class="card-title">Netflix</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+
+                                        <div class="rating-wrapper" aria-label="5 start rating">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <p class="rating-text">142 reviews</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                                    <img src="./assets/images/product-01.png" width="540" height="720" loading="lazy"
+                                        alt="Facial cleanser" class="img-cover">
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to whishlist">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="price">
+                                        <span class="span">$3.75</span>
+                                    </div>
+
+                                    <h3>
+                                        <a href="#" class="card-title">Youtube Premium</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+
+                                        <div class="rating-wrapper" aria-label="5 start rating">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <p class="rating-text">110 reviews</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
 
                 </div>
+            </section>
 
-              </div>
-            </li>
-
-            <li class="scrollbar-item">
-              <div class="shop-card">
-
-                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
-                  <img src="./assets/images/product-10.png" width="540" height="720" loading="lazy"
-                    alt="Facial cleanser" class="img-cover">
-
-                  <div class="card-actions">
-
-                    <button class="action-btn" aria-label="add to cart">
-                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
-                    </button>
-
-                    <button class="action-btn" aria-label="add to whishlist">
-                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
-                    </button>
-
-                    <button class="action-btn" aria-label="compare">
-                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
-                    </button>
-
-                  </div>
-                </div>
-
-                <div class="card-content">
-
-                  <div class="price">
-                    <span class="span">$12.00</span>
-                  </div>
-
-                  <h3>
-                    <a href="#" class="card-title">Dominio</a>
-                  </h3>
-
-                  <div class="card-rating">
-
-                    <div class="rating-wrapper" aria-label="5 start rating">
-                      <ion-icon name="star" aria-hidden="true"></ion-icon>
-                      <ion-icon name="star" aria-hidden="true"></ion-icon>
-                      <ion-icon name="star" aria-hidden="true"></ion-icon>
-                      <ion-icon name="star" aria-hidden="true"></ion-icon>
-                      <ion-icon name="star" aria-hidden="true"></ion-icon>
-                    </div>
-
-                    <p class="rating-text">75 reviews</p>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="scrollbar-item">
-              <div class="shop-card">
-
-                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
-                  <img src="./assets/images/product-11.png" width="540" height="720" loading="lazy"
-                    alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
-
-                  <span class="badge" aria-label="20% off">-20%</span>
-
-                  <div class="card-actions">
-
-                    <button class="action-btn" aria-label="add to cart">
-                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
-                    </button>
-
-                    <button class="action-btn" aria-label="add to whishlist">
-                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
-                    </button>
-
-                    <button class="action-btn" aria-label="compare">
-                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
-                    </button>
-
-                  </div>
-                </div>
-
-                <div class="card-content">
-
-                  <div class="price">
-                    <del class="del">$4.50</del>
-
-                    <span class="span">$3.75</span>
-                  </div>
-
-                  <h3>
-                    <a href="#" class="card-title">Netflix</a>
-                  </h3>
-
-                  <div class="card-rating">
-
-                    <div class="rating-wrapper" aria-label="5 start rating">
-                      <ion-icon name="star" aria-hidden="true"></ion-icon>
-                      <ion-icon name="star" aria-hidden="true"></ion-icon>
-                      <ion-icon name="star" aria-hidden="true"></ion-icon>
-                      <ion-icon name="star" aria-hidden="true"></ion-icon>
-                      <ion-icon name="star" aria-hidden="true"></ion-icon>
-                    </div>
-
-                    <p class="rating-text">142 reviews</p>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="scrollbar-item">
-              <div class="shop-card">
-
-                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
-                  <img src="./assets/images/product-01.png" width="540" height="720" loading="lazy"
-                    alt="Facial cleanser" class="img-cover">
-
-                  <div class="card-actions">
-
-                    <button class="action-btn" aria-label="add to cart">
-                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
-                    </button>
-
-                    <button class="action-btn" aria-label="add to whishlist">
-                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
-                    </button>
-
-                    <button class="action-btn" aria-label="compare">
-                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
-                    </button>
-
-                  </div>
-                </div>
-
-                <div class="card-content">
-
-                  <div class="price">
-                    <span class="span">$3.75</span>
-                  </div>
-
-                  <h3>
-                    <a href="#" class="card-title">Youtube Premium</a>
-                  </h3>
-
-                  <div class="card-rating">
-
-                    <div class="rating-wrapper" aria-label="5 start rating">
-                      <ion-icon name="star" aria-hidden="true"></ion-icon>
-                      <ion-icon name="star" aria-hidden="true"></ion-icon>
-                      <ion-icon name="star" aria-hidden="true"></ion-icon>
-                      <ion-icon name="star" aria-hidden="true"></ion-icon>
-                      <ion-icon name="star" aria-hidden="true"></ion-icon>
-                    </div>
-
-                    <p class="rating-text">110 reviews</p>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-      <!-- 
+            <!-- 
         - #FEATURE
       -->
 
-      <section class="section feature" aria-label="feature" data-section>
-        <div class="container">
+            <section class="section feature" aria-label="feature" data-section>
+                <div class="container">
 
-          <h2 class="h2-large section-title">Servicios Garantizados</h2>
+                    <h2 class="h2-large section-title">Servicios Garantizados</h2>
 
-          <ul class="flex-list">
+                    <ul class="flex-list">
 
-            <li class="flex-item">
-              <div class="feature-card">
+                        <li class="flex-item">
+                            <div class="feature-card">
 
-                <img src="./assets/images/feature-2.jpg" style="width: 180px;" loading="lazy" alt="Guaranteed PURE"
-                  class="card-icon">
+                                <img src="./assets/images/feature-2.jpg" style="width: 180px;" loading="lazy"
+                                    alt="Guaranteed PURE" class="card-icon">
 
-                <h3 class="h3 card-title">24/7 Servicios en Continuo Funcionamiento</h3>
+                                <h3 class="h3 card-title">24/7 Servicios en Continuo Funcionamiento</h3>
 
-                <p class="card-text">
-                    El mundo de los negocios y el entretenimiento no puede detenerse ni un solo momento, por 
-                    ello pensando en su tranquilidad y bienestar nuestros servicios brindan el soporte ágil y continuo. 
-                </p>
+                                <p class="card-text">
+                                    El mundo de los negocios y el entretenimiento no puede detenerse ni un solo momento,
+                                    por
+                                    ello pensando en su tranquilidad y bienestar nuestros servicios brindan el soporte
+                                    ágil y continuo.
+                                </p>
 
-              </div>
-            </li>
+                            </div>
+                        </li>
 
-            <li class="flex-item">
-              <div class="feature-card">
+                        <li class="flex-item">
+                            <div class="feature-card">
 
-                <img src="./assets/images/feature-3.jpg" style="width: 150px;" loading="lazy"
-                  alt="Completely Cruelty-Free" class="card-icon">
+                                <img src="./assets/images/feature-3.jpg" style="width: 150px;" loading="lazy"
+                                    alt="Completely Cruelty-Free" class="card-icon">
 
-                <h3 class="h3 card-title">Garantía de Devolución de Dinero por 30 días</h3>
+                                <h3 class="h3 card-title">Garantía de Devolución de Dinero por 30 días</h3>
 
-                <p class="card-text">
-                    Nuestra misión brindarles servicios de calidad y eficaces para su bienestar, por lo cual extendemos 
-                    la garantía durante 30 días en caso de que cualquier servicio no cubra con sus requerimientos 
-                    probados, le hacemos la devolución de su dinero.
-                </p>
+                                <p class="card-text">
+                                    Nuestra misión brindarles servicios de calidad y eficaces para su bienestar, por lo
+                                    cual extendemos
+                                    la garantía durante 30 días en caso de que cualquier servicio no cubra con sus
+                                    requerimientos
+                                    probados, le hacemos la devolución de su dinero.
+                                </p>
 
-              </div>
-            </li>
+                            </div>
+                        </li>
 
-          </ul>
+                    </ul>
 
-        </div>
-      </section>
+                </div>
+            </section>
 
 
-      <!-- 
+            <!-- 
         - #OFFER
       -->
 
-      <section class="section offer" id="offer" aria-label="offer" data-section>
-        <div class="container">
+            <section class="section offer" id="offer" aria-label="offer" data-section>
+                <div class="container">
 
-          <figure class="offer-banner">
-            <img src="./assets/images/offer-banner-1.png" width="305" height="408" loading="lazy" alt="offer products"
-              class="w-100">
+                    <figure class="offer-banner">
+                        <img src="./assets/images/offer-banner-1.png" width="305" height="408" loading="lazy"
+                            alt="offer products" class="w-100">
 
-            <img src="./assets/images/offer-banner-2.png" width="450" height="625" loading="lazy" alt="offer products"
-              class="w-100">
-          </figure>
+                        <img src="./assets/images/offer-banner-2.png" width="450" height="625" loading="lazy"
+                            alt="offer products" class="w-100">
+                    </figure>
 
-          <div class="offer-content">
+                    <div class="offer-content">
 
-            <p class="offer-subtitle">
-              <span class="span">Special Offer</span>
-            </p>
+                        <p class="offer-subtitle">
+                            <span class="span">Special Offer</span>
+                        </p>
 
-            <h2 class="h2-large section-title">30 días de alojamiento gratuito</h2>
+                        <h2 class="h2-large section-title">30 días de alojamiento gratuito</h2>
 
-            <p class="section-text">
-                Nuestros servicios están probados y certificados, siempre pensando en brindarles el mejor servicio.
-            </p>
-            <br/>
-            <a href="#" class="btn btn-primary">Get Only $11.99</a>
+                        <p class="section-text">
+                            Nuestros servicios están probados y certificados, siempre pensando en brindarles el mejor
+                            servicio.
+                        </p>
+                        <br />
+                        <a href="#" class="btn btn-primary">Get Only $11.99</a>
 
-          </div>
+                    </div>
 
-        </div>
-      </section>
-
-
-
+                </div>
+            </section>
 
 
+            <!--Contact Section-->
+            <section class="contactSection" id="contactSection">
+                <section id="contact-heading">
+                    <div class="contact-container heading-grid">
+                        <div class="contact-heading-wrap">
+                            <h1>Póngase en contacto</h1>
+                            <p>¿Necesita más información? Por favor contáctenos para encontrar más sobre nuestros
+                                productos y servicios</p>
+                        </div>
+                    </div>
+                </section>
 
-      <!-- 
-        - #BLOG
-      
+                <section id="form-box" class="animated jackInTheBox">
+                    <div class="contact-container">
+                        <div class="form-box form-box-grid">
+                            <div class="form-info">
+                                <h3>Información de contacto</h3>
+                                <ul>
+                                    <li><i class="fas fa-map-marker-alt"></i>Av. General Rumiñahui s/ny Ambato</li>
+                                    <li><i class="fas fa-mobile-alt"></i>+593(0995)667 373</li>
+                                    <li><i class="fas fa-envelope"></i>ljyaranga@espe.edu.ec</li>
+                                    <li><i class="fas fa-envelope"></i>ldbarrrionuevo@espe.edu.ec</li>
+                                    <li><i class="fas fa-envelope"></i>jarivera16@espe.edu.ec</li>
+                                </ul>
+                            </div>
 
-      <section class="section blog" id="blog" aria-label="blog" data-section>
-        <div class="container">
+                            <div class="form-input">
+                                <h3>Envíanos un mensaje</h3>
+                                <form action="https://formsubmit.co/leonardo.yaranga@gmail.com" method="POST">
+                                    <p>
+                                        <label for="name">Nombre</label>
+                                        <input type="text" id="name" name="name" pattern="[^0-9]*" inputmode="text"
+                                            title="No se permiten números" placeholder="Name..." required>
 
-          <h2 class="h2-large section-title">More to Discover</h2>
+                                    </p>
+                                    <p>
+                                        <label for="subject">Asunto</label>
+                                        <input type="text" id="subject" name="subject" placeholder="Subject..."
+                                            required>
+                                    </p>
+                                    <p class="full">
+                                        <label for="email">Email</label>
+                                        <input type="email" id="email" name="email" placeholder="Email Here..."
+                                            required>
+                                    </p>
+                                    <p class="full">
+                                        <label for="message">Tu mensaje</label>
+                                        <textarea id="coments" name="coments" required></textarea>
+                                    </p>
+                                    <p class="full">
+                                        <button type="submit">Enviar mensaje</button>
+                                    </p>
+                                    <input type="hidden" name="_next" value=""> <!-- Add the Vercel link -->
+                                    <input type="hidden" name="_captcha" value="false">
 
-          <ul class="flex-list">
-
-            <li class="flex-item">
-              <div class="blog-card">
-
-                <figure class="card-banner img-holder has-before hover:shine" style="--width: 700; --height: 450;">
-                  <img src="./assets/images/blog-1.jpg" width="700" height="450" loading="lazy" alt="Find a Store"
-                    class="img-cover">
-                </figure>
-
-                <h3 class="h3">
-                  <a href="#" class="card-title">Find a Store</a>
-                </h3>
-
-                <a href="#" class="btn-link">
-                  <span class="span">Our Store</span>
-
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-            <li class="flex-item">
-              <div class="blog-card">
-
-                <figure class="card-banner img-holder has-before hover:shine" style="--width: 700; --height: 450;">
-                  <img src="./assets/images/blog-2.jpg" width="700" height="450" loading="lazy" alt="From Our Blog"
-                    class="img-cover">
-                </figure>
-
-                <h3 class="h3">
-                  <a href="#" class="card-title">From Our Blog</a>
-                </h3>
-
-                <a href="#" class="btn-link">
-                  <span class="span">Our Store</span>
-
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-            <li class="flex-item">
-              <div class="blog-card">
-
-                <figure class="card-banner img-holder has-before hover:shine" style="--width: 700; --height: 450;">
-                  <img src="./assets/images/blog-3.jpg" width="700" height="450" loading="lazy" alt="Our Story"
-                    class="img-cover">
-                </figure>
-
-                <h3 class="h3">
-                  <a href="#" class="card-title">Our Story</a>
-                </h3>
-
-                <a href="#" class="btn-link">
-                  <span class="span">Our Store</span>
-
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-    </article>
-
-
-    <!--Contact Section-->
-    <section class="contactSection" id="contactSection">
-      <section id="contact-heading">
-        <div class="contact-container heading-grid">
-          <div class="contact-heading-wrap">
-            <h1>Póngase en contacto</h1>
-            <p>¿Necesita más información? Por favor contáctenos para encontrar más sobre nuestros productos y servicios</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="form-box" class="animated jackInTheBox">
-        <div class="contact-container">
-          <div class="form-box form-box-grid">
-            <div class="form-info">
-              <h3>Información de contacto</h3>
-              <ul>
-                <li><i class="fas fa-map-marker-alt"></i>Av. General Rumiñahui s/ny Ambato</li>
-                <li><i class="fas fa-mobile-alt"></i>+593(0995)667 373</li>
-                <li><i class="fas fa-envelope"></i>ljyaranga@espe.edu.ec</li>
-                <li><i class="fas fa-envelope"></i>ldbarrrionuevo@espe.edu.ec</li>
-                <li><i class="fas fa-envelope"></i>jarivera16@espe.edu.ec</li>
-              </ul>
-            </div>
-
-            <div class="form-input">
-              <h3>Envíanos un mensaje</h3>
-              <form action="https://formsubmit.co/leonardo.yaranga@gmail.com" method="POST">
-                <p>
-                  <label for="name">Nombre</label>
-                  <input type="text" id="name" name="name" pattern="[^0-9]*" inputmode="text"
-                    title="No se permiten números" placeholder="Name..." required>
-
-                </p>
-                <p>
-                  <label for="subject">Asunto</label>
-                  <input type="text" id="subject" name="subject" placeholder="Subject..." required>
-                </p>
-                <p class="full">
-                  <label for="email">Email</label>
-                  <input type="email" id="email" name="email" placeholder="Email Here..." required>
-                </p>
-                <p class="full">
-                  <label for="message">Tu mensaje</label>
-                  <textarea id="coments" name="coments" required></textarea>
-                </p>
-                <p class="full">
-                  <button type="submit">Enviar mensaje</button>
-                </p>
-                <input type="hidden" name="_next" value=""> <!-- Add the Vercel link -->
-                <input type="hidden" name="_captcha" value="false">
-
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-    </section>
-  </main>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+    </main>
 
 
 
 
-  <!-- 
+    <!-- 
     - #FOOTER
   -->
 
-  <footer class="footer" data-section>
-    <div class="container">
+    <footer class="footer" data-section>
+        <div class="container">
 
-      <div class="footer-top">
+            <div class="footer-top">
 
-        <ul class="footer-list">
+                <ul class="footer-list">
 
-          <li>
-            <p class="footer-list-title">Marcando la diferencia</p>
-          </li>
+                    <li>
+                        <p class="footer-list-title">Marcando la diferencia</p>
+                    </li>
 
-          <li>
-            <p class="footer-list-text">Obtenga 30 días de alojamiento gratuito</p>
-            <p class="footer-list-text">24/7 servicios de Continuo Funcionamiento.</p>
-            <p class="footer-list-text">Garantía de devolución de dinero por 30 días</p>
-          </li>
+                    <li>
+                        <p class="footer-list-text">Obtenga 30 días de alojamiento gratuito</p>
+                        <p class="footer-list-text">24/7 servicios de Continuo Funcionamiento.</p>
+                        <p class="footer-list-text">Garantía de devolución de dinero por 30 días</p>
+                    </li>
 
-        </ul>
+                </ul>
 
-      </div>
+            </div>
 
-      <div class="footer-bottom">
+            <div class="footer-bottom">
 
-        <div class="wrapper">
-          <p class="copyright">
-            &copy; 2022 ASEDINFO
-          </p>
+                <div class="wrapper">
+                    <p class="copyright">
+                        &copy; 2022 ASEDINFO
+                    </p>
 
-          <ul class="social-list">
-            <li>
-              <a href="https://x.com/asedinfo1" class="social-link" target="_blank">
-                <i class="fa-brands fa-x-twitter"></i></a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/asedinfo?locale=es_LA" class="social-link" target="_blank">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
+                    <ul class="social-list">
+                        <li>
+                            <a href="https://x.com/asedinfo1" class="social-link" target="_blank">
+                                <i class="fa-brands fa-x-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/asedinfo?locale=es_LA" class="social-link"
+                                target="_blank">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
 
-            <li>
-              <a href="https://www.instagram.com/asedinfo_ec/" class="social-link" target="_blank">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
+                        <li>
+                            <a href="https://www.instagram.com/asedinfo_ec/" class="social-link" target="_blank">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
 
-            <li>
-              <a href="https://www.youtube.com/@asedinfosoporte3844" class="social-link" target="_blank">
-                <ion-icon name="logo-youtube"></ion-icon>
-              </a>
-            </li>
+                        <li>
+                            <a href="https://www.youtube.com/@asedinfosoporte3844" class="social-link" target="_blank">
+                                <ion-icon name="logo-youtube"></ion-icon>
+                            </a>
+                        </li>
 
-          </ul>
+                    </ul>
+                </div>
+
+                <a href="#" class="logo">
+                    <img src="./assets/images/LogoAI.png" width="179" height="26" loading="lazy" alt="Glowing">
+                </a>
+
+                <img src="./assets/images/pay.png" width="313" height="28" alt="available all payment method"
+                    class="w-100">
+
+            </div>
+
         </div>
-
-        <a href="#" class="logo">
-          <img src="./assets/images/logo.png" width="179" height="26" loading="lazy" alt="Glowing">
-        </a>
-
-        <img src="./assets/images/pay.png" width="313" height="28" alt="available all payment method" class="w-100">
-
-      </div>
-
-    </div>
-  </footer>
+    </footer>
 
 
-  <!-- 
+    <!-- 
     - #BACK TO TOP
   -->
 
-  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
-    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
-  </a>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+    </a>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <!-- clouflare-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-  <!--Fontawasome-->
-  <script src="https://kit.fontawesome.com/7414e22221.js"></script>
+    <!-- clouflare-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!--Fontawasome-->
+    <script src="https://kit.fontawesome.com/7414e22221.js"></script>
 
 
-  <!-- 
+    <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/script.js" defer></script>
 
-  <!-- 
+    <!-- 
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
