@@ -1291,7 +1291,7 @@
 
 
 <!--Contact Section-->
-
+<section class="contactSection" id="contactSection">
     <section id="contact-heading">
       <div class="contact-container heading-grid">
         <div class="contact-heading-wrap">
@@ -1318,7 +1318,10 @@
             <form action="https://formsubmit.co/leonardo.yaranga@gmail.com" method="POST">
               <p>
                 <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Name..." required>
+                <input type="text" id="name" name="name" pattern="[^0-9]*"
+                inputmode="text" title="No se permiten números"
+                 placeholder="Name..." required>
+
               </p>
               <p>
                 <label for="subject">Subject</label>
@@ -1338,13 +1341,12 @@
               <input type="hidden" name="_next" value="">  <!-- Add the Vercel link -->
               <input type="hidden" name="_captcha" value="false">
               
-
             </form>
           </div>
         </div>
       </div>
     </section>
-
+</section>
   </main>
 
 

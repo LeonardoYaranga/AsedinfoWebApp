@@ -1412,17 +1412,19 @@ body {
 }
 
 @import url('https://fonts.googleapis.com/css?family=Coda+Caption:800|Source+Sans+Pro&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 :root {
-  --primary-color: #3598b6;
-  --secondary-color: #2CC4ED;
+  --primary-color: #c7a125;
+  --secondary-color: #c9be5b;
+  --contactTitles: #fff;
+  --contactText: #000;
 }
 
-/*
-body {
-  font-family: 'Source Sans Pro', sans-serif;
+
+.contactSection {
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+  font-family: "Nunito", sans-serif;
 }
-*/
 
 * {
   margin: 0;
@@ -1445,7 +1447,7 @@ ul {
 }
 
 .contact-heading-wrap {
-  color: #fff;
+  color: var(--contactTitles);
   padding: 3rem 0;
   text-align: center;
   max-width: 20rem;
@@ -1484,7 +1486,7 @@ ul {
 /* Form Info */
 .form-info {
   background: var(--secondary-color);
-  color: #fff;
+  color: #333;
   padding: 2rem;
   text-align: center;
   list-style: none;
@@ -1534,7 +1536,7 @@ ul {
 
 .form-input label {
   font-weight: bold;
-  color: #222222;
+  color: var(--contactText);
   line-height: 1.6;
   opacity: 0.8;
 }
@@ -1567,12 +1569,11 @@ ul {
   background: var(--secondary-color);
   border: none;
   outline: none;
-  color: #fff;
+  color: var(--contactText);
   text-transform: uppercase;
   font-weight: bold;
   cursor: pointer;
-  transition: all .5s ease
-  ;
+  transition: all .5s ease;
 }
 
 .form-input form button:hover {
